@@ -1,0 +1,76 @@
+/* GLOBAL END */
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'exo 2', 'Roboto Condensed';
+    color: white;
+}
+
+h2 {
+    color: black;
+}
+/* GLOBAL END */
+
+header {
+    background: navy;
+    width: 100%;
+    padding: 20px;
+}
+
+#author-quotes,
+#musician-quotes {
+    padding: 20px 20%;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.author-card,
+.musician-card {
+    grid-template-rows:2fr 1fr;
+    width: 100%;
+    margin: 10px;
+    padding: 4%;
+    font-size: 1.3rem;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.author-card:nth-child(odd),
+.musician-card:nth-child(even)
+ {
+    background: #a8a1df;
+}
+
+.author-card {
+    background: rgb(199, 152, 243);
+}
+
+
+
+.musician-card {
+    background: rgb(226, 146, 159);
+}
+
+p {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+span {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-variant: small-caps;
+    font-size: 1.1rem;
+}
+
+
+
+
+
